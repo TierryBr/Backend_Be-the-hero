@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-const Incidents = require('../../models/Incidents');
-=======
 const Incidents = require('../models/Incidents');
->>>>>>> backend da aplicação
+
 
 // rota para lista o caso de apenas uma ONG
 module.exports = {

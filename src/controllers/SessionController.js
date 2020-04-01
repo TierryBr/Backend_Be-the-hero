@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-const Ongs = require('../../models/Ongs');
-=======
 const Ongs = require('../models/Ongs');
->>>>>>> backend da aplicação
+
 
 // VERIFICAR SE A ONG EXISTE OU NÃO
 module.exports = {

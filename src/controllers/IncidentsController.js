@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-const Incidents = require('../../models/Incidents');
 const crypto = require('crypto');
 
-const Ongs = require('../../models/Ongs');
-=======
 const Incidents = require('../models/Incidents');
-const crypto = require('crypto');
 
-//const Ongs = require('../../models/Ongs');
->>>>>>> backend da aplicação
+
 
 module.exports = {
 
@@ -22,10 +16,6 @@ module.exports = {
         // CONTAR QUANTOS INCIDENTS TEM AO TOTAL
         const count = await Incidents.countDocuments();
 
-
-        // const ongs = await Ongs.find().select('name')
-
-        // const incidents = await Incidents.find();
         
         const incidentt = await Incidents.aggregate([
             {
