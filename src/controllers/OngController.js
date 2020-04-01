@@ -1,9 +1,6 @@
 const crypto = require('crypto');
-<<<<<<< HEAD
-const Ongs = require('../../models/Ongs');
-=======
+
 const Ongs = require('../models/Ongs');
->>>>>>> backend da aplicação
 
 module.exports = {
     async index(request, response) {
